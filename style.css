@@ -33,24 +33,91 @@
     width: 300px;
     height: 300px;
     background-color: chocolate;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #textodeperfil {
     width: 600px;
     height: 300px;
     background-color: mediumturquoise;
-    
+
 
 }
 
 img {
     border-radius: 50%;
     align-self: center;
-width: 200px;
+    width: 200px;
 }
-#seguidores{
+
+#seguidores {
     margin-right: 45px;
+
+}
+
+#Davi de Paula {
+    margin-right: 45px;
+
+}
+
+.juntinhos {
+    margin: 0;
+
+
+}
+
+.quasejuntinho {
+    margin-bottom: 0;
+
+}
+
+.nome {
+    margin-bottom: 0;
+}
+
+.pill {
+    /* Alinha os itens na horizontal e centraliza verticalmente */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    /* Espaço controlado entre o ícone e o texto */
+
+    /* Cores e formato correto */
+    background-color: #555555;
+    /* O cinza escuro do seu fundo */
+    padding: 6px 14px;
+    /* Espaçamento interno pequeno */
+    border-radius: 50px;
+    /* Garante o formato de pílula arredondada */
+
+    /* REMOVA qualquer propriedade de width (largura) ou height (altura) fixa daqui! */
+}
+
+.pill img {
+    /* ISSO ENCOLHE O ÍCONE GIGANTE: */
+    width: 15px;
+    /* Deixa o ícone do tamanho de uma letra */
+    height: 15px;
+    /* Mantém a proporção idêntica */
+    border-radius: 50%;
+    /* Garante que o fundo branco dele continue um círculo perfeito */
+    object-fit: contain;
+    /* Impede que o desenho mude de formato */
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    /* Cor do texto digitalcollegebr */
+}
+
+i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 20px;
+    background-image: url(images\ 4.png);
 }
