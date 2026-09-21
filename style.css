@@ -16,12 +16,12 @@
     width: 900px;
     height: 200px;
     background-color: darkgoldenrod;
+    display: flex;
+
 }
 
 #feed {
-
-    width: 900px;
-    height: 200px;
+ height: 200px;
     background-color: darkkhaki;
 }
 
@@ -85,7 +85,7 @@ img {
     /* Espaço controlado entre o ícone e o texto */
 
     /* Cores e formato correto */
-    background-color: #555555;
+    background-color: #8a8888;
     /* O cinza escuro do seu fundo */
     padding: 6px 14px;
     /* Espaçamento interno pequeno */
@@ -97,9 +97,9 @@ img {
 
 .pill img {
     /* ISSO ENCOLHE O ÍCONE GIGANTE: */
-    width: 15px;
+    width: 16px;
     /* Deixa o ícone do tamanho de uma letra */
-    height: 15px;
+    height: 16px;
     /* Mantém a proporção idêntica */
     border-radius: 50%;
     /* Garante que o fundo branco dele continue um círculo perfeito */
@@ -117,7 +117,30 @@ img {
 i {
     width: 20px;
     height: 20px;
-    display: inline-block;
+    display: inline-flex;
+    gap: 5px;
     background-size: 20px;
     background-image: url(images\ 4.png);
+}
+
+.destaque {
+    height: 200px;
+    width: 150px;
+    background-color: chartreuse;
+    padding: 33px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+
+    img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+#feed {
+   display: flex;
+flex-wrap: wrap;
+height: 500px;
 }
