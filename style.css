@@ -10,15 +10,74 @@ body{
   font-style: normal;
 }
 
-.feed meio{
-display: grid;
-grid-template-columns: 1fr 400px 1fr; 
+#menuaesquerda{
+background-color: brown;
+display: flex;
+gap: 50px;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+width: 275px;
+color: antiquewhite;
+transition: all 0.3s ease;
+}
+
+#menuaesquerda :hover{
+transform: translateX(10px);
+cursor: pointer;
+
+}
+#fotodeperfil{
+   display: flex;
+  align-items: flex-start;
   gap: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
 }
-.banner{
-    width: 100%;
-  height: 300px;
- background-image: linear-gradient(to right, #161718, hsl(0, 85%, 22%));
+
+#fotodeperfil img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+
+#textodeperfil{
+display: flex;
+flex-direction: column;
+gap: 5px;;
+}
+#fotosmenu{
+display: flex;
+align-items: center;
+gap: 15px;
+flex-direction: row;
+img{
+width: 100%;
+height: 250px;
+display: grid;
+grid-template-columns: 250px 1fr;
+min-height: 100vh;
+}
+}
+#barra{
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 24px;
+padding: 0 15px;
+width: 500px;
+height: 20px;
+background-color: darkred;
+input{
+flex-grow: 1;
+background:transparent; border: none;outline: none;
+}
+
+}
+
+
+
 
 
